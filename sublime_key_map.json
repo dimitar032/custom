@@ -1,6 +1,6 @@
 [
 	{ "keys": ["shift+shift"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
-	{"keys": ["alt+shift+f"], "command": "reindent", "args": {"single_line": false} },
+	{ "keys": ["alt+shift+f"], "command": "reindent", "args": {"single_line": false} },
 	{ "keys": ["ctrl+d"], "command": "duplicate_line" },
 	{ "keys": ["super+shift+up"], "command": "swap_line_up" },
 	{ "keys": ["super+shift+down"], "command": "swap_line_down" },
