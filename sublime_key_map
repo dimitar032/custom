@@ -1,0 +1,19 @@
+[
+	{ "keys": ["shift+shift"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+	{"keys": ["alt+shift+f"], "command": "reindent", "args": {"single_line": false} },
+	{ "keys": ["ctrl+d"], "command": "duplicate_line" },
+	// { "keys": ["super+`"], "command": "toggle_side_bar" },
+	{ "keys": ["super+shift+up"], "command": "swap_line_up" },
+	{ "keys": ["super+shift+down"], "command": "swap_line_down" },
+	{ "keys": ["ctrl+tab"], "command": "next_view" },
+	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+	// { "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"}, },
+	{ "keys": ["j", "j"], "command": "exit_insert_mode",
+		"context":
+		[
+			{ "key": "setting.command_mode", "operand": false },
+			{ "key": "setting.is_widget", "operand": false }
+		]
+	}
+
+]
