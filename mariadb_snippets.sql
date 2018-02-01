@@ -29,6 +29,7 @@ DECLARE cursor1 CURSOR FOR
       CLOSE cursor1;
       END;
 
+
 # Trigger
 CREATE DEFINER =`root`@`localhost` TRIGGER t_AFTER_ACTION_TABLE
   # AFTER UPDATE
@@ -52,12 +53,13 @@ CREATE DEFINER =`root`@`localhost` TRIGGER t_AFTER_ACTION_TABLE
     THEN
     LEAVE loop1;
     END IF;
+      #your code below..
 
-      #your code here..
 
       END LOOP loop1;
       CLOSE cursor1;
       END;
+
 
 # Function
 CREATE DEFINER =`root`@`localhost` FUNCTION f_WHAT_FUNCTION_DOES(
