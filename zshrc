@@ -10,7 +10,7 @@ alias tinker="php artisan tinker"
 alias serve="php artisan serve"
 
 #laravel
-alias lara_log="tail -f storage/logs/laravel.log"
-alias lara_worker_log="tail -f storage/logs/worker.log"
+alias lara_log="tail -f -n 150 storage/logs/laravel.log"
+alias lara_worker_log="tail -f -n 150 storage/logs/worker.log"
 alias lara_worker_restart="sudo supervisorctl restart laravel-worker:*"
 alias lara_worker_start="php artisan queue:work --tries=3"
