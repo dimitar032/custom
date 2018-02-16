@@ -1,7 +1,7 @@
 #! /bin/bash
 V_DATABASE_USER_NAME=admin;
 V_DATABASE_USER_PASSWORD=secret;
-V_DIRECTORY_TO_SAVE=/home/mitaka/Desktop/;
+V_FILE_DIRECTORY=/home/mitaka/Desktop/;
 
 echo -n "Enter database name: "
 read i_database_name
@@ -28,5 +28,5 @@ EOF
 echo "Created database."
 
 echo "Begin importing..."
-mysql -u ${V_DATABASE_USER_NAME} -p${V_DATABASE_USER_PASSWORD} ${i_database_name} < ${V_DIRECTORY_TO_SAVE}${i_database_name}.sql
+mysql -u ${V_DATABASE_USER_NAME} -p${V_DATABASE_USER_PASSWORD} ${i_database_name} < ${V_FILE_DIRECTORY}${i_database_name}.sql
 echo "Done."
