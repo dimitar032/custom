@@ -26,5 +26,5 @@ then
 
 	echo "Begin importing..."
 	mysql -u ${V_DATABASE_USER_NAME} -p${V_DATABASE_USER_PASSWORD} ${i_database_name} < ${V_FILE_DIRECTORY}${i_database_name}.sql
-	echo "Done."
+	echo "Done." 
 fi
