@@ -8,7 +8,7 @@ echo -n "Enter a password for db.user "\""${V_DATABASE_USER_NAME}"\"": "
 read -s i_password
 echo 
 
-echo -n "Do you want to ignore specific tables data? say "\""yes"\"": " 
+echo -n "Do you want data from tables "specific_table1" and "spacific_table_2" ? say "\""yes"\"": " 
 read i_agreement
 
 if [ "$i_agreement" = "yes" ]
