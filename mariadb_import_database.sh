@@ -6,7 +6,7 @@ V_DIRECTORY_TO_SAVE=/home/mitaka/Desktop/;
 echo -n "Enter database name: "
 read i_database_name
 
-echo -n "This operation will DROP database "\""${i_database_name}"\"" are you sure , say "\""yes"\"": " 
+echo -n "This operation will DROP database "\""${i_database_name}"\"" are you sure? say "\""yes"\"": " 
 read i_agreement 
 
 if [ "$i_agreement" != "yes" ]
