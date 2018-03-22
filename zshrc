@@ -1,5 +1,5 @@
 #datagrip
-alias data_grip_remove_old_sql_files="sudo rm -rf /home/mitaka/.DataGrip2017.2/config/projects/default/.idea/dataSources/*"
+alias data_grip_remove_old_sql_files="sudo rm -rf /home/user/.DataGrip/config/projects/default/.idea/dataSources/*"
 
 #php
 alias p="vendor/bin/phpunit"
