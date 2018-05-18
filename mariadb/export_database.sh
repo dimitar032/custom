@@ -1,7 +1,8 @@
 #!/bin/bash
 V_DATABASE_NAME=DATABASE;
 V_DATABASE_USER_NAME=admin;
-V_TIMESTAMP=$(date +%Y_%m_%d_%H%M%S)
+V_TIMESTAMP=$(date +%Y_%m_%d)
+#V_TIMESTAMP=$(date +%Y_%m_%d_%H%M%S)
 V_FILENAME="${V_TIMESTAMP}-${V_DATABASE_NAME}.sql"
 
 echo -n "Enter a password for db.user "\""${V_DATABASE_USER_NAME}"\"": "
