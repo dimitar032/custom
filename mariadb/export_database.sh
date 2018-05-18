@@ -23,7 +23,7 @@ else
 	--routines \
 	--ignore-table=${V_DATABASE_NAME}.specific_table_1 \
 	--ignore-table=${V_DATABASE_NAME}.specific_table_2 \
-	> ${V_FILENAME}	&& \
+	> /full-path/to/${V_FILENAME}	&& \
 
 	#get only the structure of ignored tables..
 	mysqldump -u ${V_DATABASE_USER_NAME} -p${i_password} ${V_DATABASE_NAME} \
