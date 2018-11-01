@@ -3,6 +3,7 @@
 	{ "keys": ["super+shift+up"], "command": "swap_line_up" },
 	{ "keys": ["super+shift+down"], "command": "swap_line_down" },
 	{ "keys": ["ctrl+tab"], "command": "next_view" },
+	{ "keys": ["ctrl+b"], "command": "goto_definition" },
 	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" },
 	{ "keys": ["j", "j"], "command": "exit_insert_mode",
 		"context":
