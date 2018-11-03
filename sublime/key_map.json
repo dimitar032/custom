@@ -12,6 +12,12 @@
 			{ "key": "setting.command_mode", "operand": false },
 			{ "key": "setting.is_widget", "operand": false }
 		]
-	}
+	},
+	
+	
+	//sublimephpcompanion
+  	{ "keys": ["ctrl+space"], "command": "find_use" }, //import class use
+
+	
 
 ]
