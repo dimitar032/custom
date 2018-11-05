@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+protected function ${1:functionName}(${2:value = null}){ // : ${3:returnDataType}
+	${4://your code}
+}
+    ]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>prof</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>**Snip** protected function</description>
+</snippet>
