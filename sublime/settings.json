@@ -20,5 +20,11 @@
 	"line_padding_bottom": 10,
 	"line_padding_top": 10,
 	"overlay_scroll_bars": "enabled",
-	"theme": "Material-Theme.sublime-theme"
+	"theme": "Material-Theme.sublime-theme",
+	"folder_exclude_patterns": [
+		"vendor",
+		"node_modules",
+		".git",
+	]
+
 }
