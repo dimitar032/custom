@@ -1,6 +1,16 @@
 #datagrip
 alias data_grip_remove_old_sql_files="sudo rm -rf /home/user/.DataGrip/config/projects/default/.idea/dataSources/*"
 
+#utilities
+alias ..="cd .."
+alias ...="cd ../.."
+
+#js
+alias nrt="npm run test"
+alias nrd="npm run dev"
+alias nrw="npm run watch"
+alias nrww="npm run watch-poll"
+
 #php
 alias p="vendor/bin/phpunit"
 
