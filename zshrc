@@ -13,6 +13,7 @@ alias nrww="npm run watch-poll"
 
 #php
 alias p="vendor/bin/phpunit"
+alias pf="vendor/bin/phpunit --filter "
 
 #artisan
 alias art="php artisan"
