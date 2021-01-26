@@ -25,3 +25,9 @@ alias lara_log="tail -f -n 150 storage/logs/laravel.log"
 alias lara_worker_log="tail -f -n 150 storage/logs/worker.log"
 alias lara_worker_restart="sudo supervisorctl restart laravel-worker:*"
 alias lara_worker_start="php artisan queue:work --tries=3"
+
+#git
+alias gs="git status"
+alias gc="git commit -m"
+alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias gnah="git reset --hard && git clean -df"
