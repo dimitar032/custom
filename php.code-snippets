@@ -1,0 +1,51 @@
+{
+	"Create a testable function": {
+		"scope": "php",
+		"prefix": "testfunc",
+		"body": [
+			"/** @test */",
+			"public function what_foo_test()",
+			"{",
+				"	//Arrange ",
+				"	$1",
+				"	//Act ",
+				"	 ",
+				"	//Assert ",
+			"}",
+		],
+		"description": "Template for testable function"
+	},
+	"Create a public function": {
+		"scope": "php",
+		"prefix": "pubf",
+		"body": [
+			"public function fooBar($1)",
+			"{",
+				"	$2",
+			"}",
+		],
+		"description": "Template for public function"
+	},
+	"Create a protected function": {
+		"scope": "php",
+		"prefix": "prof",
+		"body": [
+			"protected function fooBar($1)",
+			"{",
+				"	$2",
+			"}",
+		],
+		"description": "Template for protected function"
+	},
+	"Create a private function": {
+		"scope": "php",
+		"prefix": "prif",
+		"body": [
+			"private function fooBar($1)",
+			"{",
+				"	$2",
+			"}",
+		],
+		"description": "Template for private function"
+	},
+}
